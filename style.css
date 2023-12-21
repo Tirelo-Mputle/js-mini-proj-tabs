@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(225, 255, 245);
+  font-family: sans-serif;
+
+  width: 100vw;
+  height: 100vh;
+}
+main {
+  width: 80%;
+  margin: 5rem auto;
+  text-align: center;
+}
+.sub-heading {
+  margin-bottom: 3rem;
+}
+.tabs-images {
+  display: flex;
+
+  width: 70%;
+  margin: 0 auto;
+  gap: 2rem;
+}
+.tabs-container {
+  background-color: white;
+}
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  background-color: gray;
+}
+.tabs div {
+  padding: 1rem;
+  /* background-color: gray; */
+}
+.content {
+  text-align: left;
+  padding: 1rem;
+}
+.chosen {
+  background-color: white;
+}
